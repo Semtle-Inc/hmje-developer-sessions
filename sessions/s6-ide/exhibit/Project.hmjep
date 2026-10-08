@@ -1,0 +1,18 @@
+프로젝트 exhibit의
+    버전은 "0.1.0"이다.
+
+모듈 App의
+    원본 경로는 "Sources/App"이고,
+    의존 라이브러리는
+        HmjeUI와,
+        기반이다.
+
+앱 Exhibit의
+    시작 모듈은 App이고,
+    지원 플랫폼은
+        macOS 14 이상과,
+        iOS 17 이상이다.
+
+Exhibit 앱의 iOS 설정의
+    묶음 식별자는 "net.semtle.hunmin.exhibit"이고,
+    표시 이름은 "전시 관람"이다.

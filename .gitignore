@@ -1,0 +1,10 @@
+build/
+.cache/
+models/
+runs/
+*.sqlite
+*.sqlite-*
+*.sqlite.backup
+*.semt
+*.gguf
+.DS_Store

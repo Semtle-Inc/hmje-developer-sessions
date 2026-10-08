@@ -1,0 +1,339 @@
+{
+  "export_date": "2026-10-09",
+  "source": "훈민정음 개발자 세션 S1–S6 예제 소스",
+  "files": [
+    {
+      "path": "sessions/s1-grammar/01_안녕.hmje",
+      "sha256": "07a374ce317c20a405fbe4399c23fade349916f361386b51147fe297f6cade70"
+    },
+    {
+      "path": "sessions/s1-grammar/02_상수와변수.hmje",
+      "sha256": "97ef35e75976999c427866514b037b8fc27b1f4a9c436f091c5a61b58a0ecb6f"
+    },
+    {
+      "path": "sessions/s1-grammar/03_값과연산.hmje",
+      "sha256": "9da92446f5f407fb0e7a69857958dbeecef62d92008ee48609a5274c07c7bfe9"
+    },
+    {
+      "path": "sessions/s1-grammar/04_문자열.hmje",
+      "sha256": "59cffa63641296a8ab967bf959532f2239d873126bb45f274e154525b80b9528"
+    },
+    {
+      "path": "sessions/s1-grammar/05_조건.hmje",
+      "sha256": "66b4aea4f6d8e2ebc1d9255d02f57b7be1aa7b3c23989da488d7a2b33be98ff1"
+    },
+    {
+      "path": "sessions/s1-grammar/06_반복.hmje",
+      "sha256": "f5d1ecbb198c0d2bf4df0179ca0a0f36faa6088b12c764e6d500577a9561348e"
+    },
+    {
+      "path": "sessions/s1-grammar/07_반복수식어.hmje",
+      "sha256": "72814c872b5d9d6c24a3c7ce89047c471227f3b210d6b54d77cdf6454612bafb"
+    },
+    {
+      "path": "sessions/s1-grammar/08_함수.hmje",
+      "sha256": "a0b966ea2908887b688d52e0e7e4c456b2b6b183458a69876e378385378520ba"
+    },
+    {
+      "path": "sessions/s1-grammar/08b_반환타입불일치.hmje",
+      "sha256": "65c45187bb6e5ae263b360371d592f5dc2338c94ff43859b4af752d28990e1d9"
+    },
+    {
+      "path": "sessions/s1-grammar/10_함수값.hmje",
+      "sha256": "1eadbe472a21dfb3da182000a205df5ac63719ce86988712ea2da587baad5cab"
+    },
+    {
+      "path": "sessions/s1-grammar/11_구조체.hmje",
+      "sha256": "27a1557f5bcfce955339a869784c1863d5b83456a2b345a892e61013f5a710da"
+    },
+    {
+      "path": "sessions/s1-grammar/11c_구조체기호비교.hmje",
+      "sha256": "6760cce91e5f173fef02b99cae221f9b75ee24f3236ff54eb76e67b7b21a6f06"
+    },
+    {
+      "path": "sessions/s1-grammar/12_종류.hmje",
+      "sha256": "99231444710104a0105a926cbc0b1f4a8a0848eb19f907ad4bfe1a6eed27cbdc"
+    },
+    {
+      "path": "sessions/s1-grammar/14_특성.hmje",
+      "sha256": "9cdfa877bc6dbb179e8201631a746c22f35e7dace42a66aa74488c5c1be0c593"
+    },
+    {
+      "path": "sessions/s1-grammar/15_배열.hmje",
+      "sha256": "0d8fa6110275f6ba3a3708e486ec79e2b4d9f44db88801111fe259f7c6cdbac6"
+    },
+    {
+      "path": "sessions/s1-grammar/16_사전과집합.hmje",
+      "sha256": "17c73cbe3f8ee9ce19470634e54adf859bd1a5570edf2c6535f4e4e78e11f9f2"
+    },
+    {
+      "path": "sessions/s1-grammar/17_클래스.hmje",
+      "sha256": "17bd135dcae3e122aac450cd5fc5341c092390fc6f55cf4eeaff6aa3e5488874"
+    },
+    {
+      "path": "sessions/s1-grammar/18_선택값.hmje",
+      "sha256": "a4710aa7774a2066bccc9a6af68e6988faea89a73f3037129f4835d538b2c8ea"
+    },
+    {
+      "path": "sessions/s1-grammar/19_입력.hmje",
+      "sha256": "7648d382f017e48a738e2c1933c2b48437ce1e1e0d6048369ad9242e76c18ecb"
+    },
+    {
+      "path": "sessions/s1-grammar/19_입력.stdin",
+      "sha256": "7f45b84a3fda76cc3cbc8a6267db5e6683c66612f9e9dc34f7fca932658ea0c0"
+    },
+    {
+      "path": "sessions/s1-grammar/19b_입력_숫자아님.hmje",
+      "sha256": "7648d382f017e48a738e2c1933c2b48437ce1e1e0d6048369ad9242e76c18ecb"
+    },
+    {
+      "path": "sessions/s1-grammar/19b_입력_숫자아님.stdin",
+      "sha256": "8378ac662914decd18678a94c47e39d66f3fc991bceb8edcbea3136963a16b50"
+    },
+    {
+      "path": "sessions/s1-grammar/20_실패와정리.hmje",
+      "sha256": "9977f217740052353ff2ec064f0ce387cde9fd2410f31d7be73785c130e3c04a"
+    },
+    {
+      "path": "sessions/s1-grammar/21_값의미.hmje",
+      "sha256": "9da5a6ea085a8dc35c9f5a79b47ffe26e5bedd33f91a103a35331c5756114722"
+    },
+    {
+      "path": "sessions/s1-grammar/22_빌림과소비.hmje",
+      "sha256": "486a6f05f476cc6391638e0c6abdad61c9c622c89965f842902db8628b9dce3c"
+    },
+    {
+      "path": "sessions/s1-grammar/22b_빌린동안수정.hmje",
+      "sha256": "cc5600c6a5e22c723348c5eec34aefea0bbbc964f94a1379c7ef3f40e902a350"
+    },
+    {
+      "path": "sessions/s1-grammar/23_같은객체.hmje",
+      "sha256": "01a0391ccf172ba57bc6a3437f24e82ced3624df8d2cd92e29d488451c90ddcc"
+    },
+    {
+      "path": "sessions/s1-grammar/24_소유하지않는.hmje",
+      "sha256": "35827c3f1b1970ec012d43b89b8422711b629671e002465b74110c91e1b1ff67"
+    },
+    {
+      "path": "sessions/s1-grammar/25_동시작업.hmje",
+      "sha256": "c6d341bc3be4001a161579a9d425132810c876e644401077f81d953338e1d4f2"
+    },
+    {
+      "path": "sessions/s1-grammar/26_제한시간.hmje",
+      "sha256": "27c43c9a2513dfdd9590572b19480284e8e5309416d87a46589a622b71fb2615"
+    },
+    {
+      "path": "sessions/s1-grammar/27_낱말세기.hmje",
+      "sha256": "77dae8982177bb78ed270a507d6f73ebb30b6609d4d5efcab21c50d9d1c8817d"
+    },
+    {
+      "path": "sessions/s1-grammar/27_낱말세기.stdin",
+      "sha256": "a2c858debc0deaca036c2ed12fcf3a41176592526de503991ab64428c9457f27"
+    },
+    {
+      "path": "sessions/s1-grammar/28_가져오기.hmje",
+      "sha256": "39ac5fc22d7c0063b9150927d1be6f81052e3494d29f2adc63d57ff499c11382"
+    },
+    {
+      "path": "sessions/s1-grammar/도구/인사말.hmje",
+      "sha256": "cee2048fe1d739d4e2d0adfbe5df156f3b708a6b6ead4656f7e6184d940a47b4"
+    },
+    {
+      "path": "sessions/s2-modifiers/01_진도.hmje",
+      "sha256": "c1d0ae762528dae1089d94dafaffee18b485886c422a4264068e163a4e6cbb18"
+    },
+    {
+      "path": "sessions/s2-modifiers/02_이름표.hmje",
+      "sha256": "a98c6a2a2455c1110502ef8363c1b1cc9f7749a16d435232cfe1c8211ec84ab8"
+    },
+    {
+      "path": "sessions/s2-modifiers/03_시간재기.hmje",
+      "sha256": "f290125ca8ac3df6773aa239cbb5ed1874d0be1a9ffffc270672bb66b8f94a57"
+    },
+    {
+      "path": "sessions/s2-modifiers/04_가져오지않음.hmje",
+      "sha256": "3721bf25a8e2d65cc16416e1ef88314fa120516b48266a09ece237040f46800b"
+    },
+    {
+      "path": "sessions/s2-modifiers/05_기록되는클래스.hmje",
+      "sha256": "33acc291c79c195de0b5c7909d30d6628f8fd211b4831edf5b7ddfd3a4692df2"
+    },
+    {
+      "path": "sessions/s2-modifiers/06_활용틀림.hmje",
+      "sha256": "f2c7bdfa16c33cf8cd195d98f95efe78c837cae941ef2e8a35da8d11676767a8"
+    },
+    {
+      "path": "sessions/s2-modifiers/07_필드수식어.hmje",
+      "sha256": "f9ce178f81669b560f79c5d067852a5187d04a5595399be6cf30b8791a6500c9"
+    },
+    {
+      "path": "sessions/s2-modifiers/08_소유하지않는.hmje",
+      "sha256": "fd204fb1a47bbe6373c7162a3cd3e01bc5f47a95decb79a6757239c2303b8cfe"
+    },
+    {
+      "path": "sessions/s2-modifiers/09_읽은필드만.hmje",
+      "sha256": "b0236239b326a5a3dc846fa547388d6d6a697a65c93cb1526e899c3dea14f700"
+    },
+    {
+      "path": "sessions/s2-modifiers/10_UI전용.hmje",
+      "sha256": "ec4b495680bd752312c5181de25f6369db01cc2abb9136bc1759030c57f3c707"
+    },
+    {
+      "path": "sessions/s2-modifiers/도구/관찰.hmje",
+      "sha256": "d95565c8d6da39358aa36f23043b620c29df0228fc13af057618d939d0061cc9"
+    },
+    {
+      "path": "sessions/s2-modifiers/도구/기록.hmje",
+      "sha256": "042c74b8cd9c3c8bfeb4e7760f5e93748db9926ae4a591e088b22d557ce08461"
+    },
+    {
+      "path": "sessions/s2-modifiers/도구/소수.hmje",
+      "sha256": "f4e086b2401874ef422799565dcceeb7d24c4f2859c1571efc95761aba68148b"
+    },
+    {
+      "path": "sessions/s2-modifiers/도구/시간.hmje",
+      "sha256": "6399ccf51017d75502e332da3552ec9567f6f798dd5c36745e968e9f26b9142f"
+    },
+    {
+      "path": "sessions/s2-modifiers/도구/주시.hmje",
+      "sha256": "be034e6b52d127e95e5116bd9e46d934b8b79175c09958c5b8d85930d3d8589f"
+    },
+    {
+      "path": "sessions/s2-modifiers/설정앱/Project.hmjep",
+      "sha256": "591da6d75f3899d8214e4a1de4bbea286ca16f57622ea5e77cc7985e5dd05544"
+    },
+    {
+      "path": "sessions/s2-modifiers/설정앱/Sources/Client/앱.hmje",
+      "sha256": "6b7bbc6ca830527ab6a81b7e7558b782409d5370ad5edba34b11b1c3fb8c1bab"
+    },
+    {
+      "path": "sessions/s2-modifiers/설정앱/Sources/Client/설정묶음.hmje",
+      "sha256": "af9e655c6088be1efec5ff7aab815a0d959333059780d8b94a688c24628b9cbd"
+    },
+    {
+      "path": "sessions/s2-modifiers/설정앱/Sources/Client/보관.hmje",
+      "sha256": "735b0c8dc33ab682d4a13685dc2f6a29fbda4213b5ad6e3e36fbdc6a15badb04"
+    },
+    {
+      "path": "sessions/s2-modifiers/두자리앱/Project.hmjep",
+      "sha256": "0d0651d5f05c56cf93d3111e27d974168abca27002b9a0dc161c79e97417ab5c"
+    },
+    {
+      "path": "sessions/s2-modifiers/두자리앱/Sources/Client/앱.hmje",
+      "sha256": "c7f62785e4015e3d16cd75bb9babeeefe86fc9030e5c605a57cd31496e95f6e6"
+    },
+    {
+      "path": "sessions/s2-modifiers/모르는속성/Project.hmjep",
+      "sha256": "e69795fca110c2cdc8937f385ff695bc17ccce94c3a5ddb12df772e429905531"
+    },
+    {
+      "path": "sessions/s2-modifiers/모르는속성/Sources/Client/앱.hmje",
+      "sha256": "5e0e4f693f6cc9ae71c1cfe8131e91b0151c1f20eecef1ca7c9774235d8a40c4"
+    },
+    {
+      "path": "sessions/s2-modifiers/모르는속성/Sources/Client/설정묶음.hmje",
+      "sha256": "af9e655c6088be1efec5ff7aab815a0d959333059780d8b94a688c24628b9cbd"
+    },
+    {
+      "path": "sessions/s3-ui/01-목록/Project.hmjep",
+      "sha256": "72e534d0b8027992a46946028ef070d2daa01faaf24f4d04103ee91065f077eb"
+    },
+    {
+      "path": "sessions/s3-ui/01-목록/Sources/App/main.hmje",
+      "sha256": "cae17585bbff7674104d50d5943ac2deab604b13ac81524168b3c2a7396821fd"
+    },
+    {
+      "path": "sessions/s3-ui/02-편집/Project.hmjep",
+      "sha256": "72e534d0b8027992a46946028ef070d2daa01faaf24f4d04103ee91065f077eb"
+    },
+    {
+      "path": "sessions/s3-ui/02-편집/Sources/App/main.hmje",
+      "sha256": "9edff046623fa9711200183176e20437b75a03f772b8c3cdaf964240429dbed7"
+    },
+    {
+      "path": "sessions/s3-ui/03-완성/Project.hmjep",
+      "sha256": "72e534d0b8027992a46946028ef070d2daa01faaf24f4d04103ee91065f077eb"
+    },
+    {
+      "path": "sessions/s3-ui/03-완성/Sources/App/main.hmje",
+      "sha256": "9dc45d64304489b7673dadfec81315737b352fe593e4a751ff852ec788c57250"
+    },
+    {
+      "path": "sessions/s4-server/Project.hmjep",
+      "sha256": "72f88a8bfba307d6dc508d4a10ba66f640e5e6f42df9b07cc95dd6ce52772d80"
+    },
+    {
+      "path": "sessions/s4-server/길이확인.hmje",
+      "sha256": "ba7788cdc001e63dd2151dd78f6f330a24d26e60faa8dcc7ea7d2bf58be476ab"
+    },
+    {
+      "path": "sessions/s4-server/서비스/메모.hmje",
+      "sha256": "2b92f4a76dab02052a932949cd07cee07fa892cc76cf6d08bd07778d6b5e2843"
+    },
+    {
+      "path": "sessions/s4-server/서비스/모형.hmje",
+      "sha256": "5011e00d5a4918adbeda334f24fadbc56b9c8507aa49456cf4e7588092709be8"
+    },
+    {
+      "path": "sessions/s4-server/서비스/예약.hmje",
+      "sha256": "7a27e1fc5fcf6a2820de48fdf9b1ee13c5b60c872d7d622d8438b769c052debc"
+    },
+    {
+      "path": "sessions/s4-server/서비스/라우트.hmje",
+      "sha256": "9d2f6002ff2e449db2116abff6f61e8c999f4deb101ff4bb3ee74c2c9634ba6b"
+    },
+    {
+      "path": "sessions/s4-server/예약서버/main.hmje",
+      "sha256": "ed862e84651e4896b160fbec1d7313dd716c60e91f696ad25b4bfba80e7eabb1"
+    },
+    {
+      "path": "sessions/s4-server/예약서버/서버.hmje",
+      "sha256": "3703f5901837eccd6f467f3663dc302b5bcd1d1b422480e357a336998e32d066"
+    },
+    {
+      "path": "sessions/s4-server/예약시험/main.hmje",
+      "sha256": "8f64c6621475fe0edadebd0b86cca46ff9472b1b9e1d0e49fbb76c8afdf05e32"
+    },
+    {
+      "path": "sessions/s5-sem/Project.hmjep",
+      "sha256": "042f7ff3c4ff0bd6c10840d7c5d47fe938ef10e61eef99d152a4c34fdbf89e75"
+    },
+    {
+      "path": "sessions/s5-sem/model/글자표.hmje",
+      "sha256": "bf42ea98d4cb602125436a222e61e761ca9953594eb49073166ab68b192eab13"
+    },
+    {
+      "path": "sessions/s5-sem/model/모델.hmje",
+      "sha256": "f6bee016fe34d67ea1e105b9120522548aec6d90fd735558f872083def7c3a21"
+    },
+    {
+      "path": "sessions/s5-sem/model/저장.hmje",
+      "sha256": "614b0390943aa5df59ebf0d177ae5536f4e61a3d1db883610334dfce19d5b1b1"
+    },
+    {
+      "path": "sessions/s5-sem/train/main.hmje",
+      "sha256": "aac281cc12d2111d7259ec78a27b685e1e3b2e29cb30d9acc11156e99e0c0757"
+    },
+    {
+      "path": "sessions/s5-sem/write/main.hmje",
+      "sha256": "876cb0f42cec3339c9f7fb8adb61d7b93461f44795c897ac0453e0855175b417"
+    },
+    {
+      "path": "sessions/s5-sem/gemma/main.hmje",
+      "sha256": "1e23749d65b748e6efbfa3273078ca815e2b60d4e2a54e661f97f5e3bbb78959"
+    },
+    {
+      "path": "sessions/s6-ide/exhibit/Project.hmjep",
+      "sha256": "d20fc2bbd3ffc36e8a9478cbb1d75ad208edbaf13f4cbea67e8923a6540b9899"
+    },
+    {
+      "path": "sessions/s6-ide/exhibit/Sources/App/main.hmje",
+      "sha256": "1b879a99c394b82c025ade05cadfb282cad45537b9df5ca65bf8b03dc465e761"
+    },
+    {
+      "path": "sessions/s6-ide/exhibit/Sources/App/안내카드.hmje",
+      "sha256": "8268fab193ce3d046b0f400e728807715054c51b40e10cbf947ed7e7e0387a40"
+    }
+  ],
+  "adaptation": "S5 말뭉치는 공개용 예제 코드로 대체. 촬영 로그·도구·백업·모델 가중치 제외."
+}

@@ -1,0 +1,9 @@
+* text=auto
+*.hmje text eol=lf
+*.hmjep text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ps1 text eol=lf
+# Training text preserves separators between repeated source blocks.
+sessions/s5-sem/data/corpus.txt whitespace=-blank-at-eof

@@ -1,0 +1,14 @@
+프로젝트 TwoPlaces의
+    버전은 "0.1.0"이다.
+
+모듈 Client의
+    원본 경로는 "Sources/Client"이고,
+    의존 라이브러리는 HmjeUI이다.
+
+앱 TwoPlaces의
+    시작 모듈은 Client이고,
+    지원 플랫폼은 macOS 14 이상이다.
+
+TwoPlaces 앱의 macOS 설정의
+    묶음 식별자는 "net.semtle.keynote.s2v6.twoplaces"이고,
+    표시 이름은 "두 자리"이다.

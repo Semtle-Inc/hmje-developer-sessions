@@ -1,0 +1,373 @@
+[
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/01_안녕.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/02_상수와변수.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/03_값과연산.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/04_문자열.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/05_조건.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/06_반복.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/07_반복수식어.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/08_함수.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/08b_반환타입불일치.hmje",
+    "expect": "compile-error",
+    "run": false,
+    "diagnostic_contains": [
+      "반환 타입",
+      "본문과 다릅니다"
+    ]
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/10_함수값.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/11_구조체.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/11c_구조체기호비교.hmje",
+    "expect": "compile-error",
+    "run": false,
+    "diagnostic_contains": [
+      "구조체 비교는"
+    ]
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/12_종류.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/14_특성.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/15_배열.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/16_사전과집합.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/17_클래스.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/18_선택값.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/19_입력.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/19b_입력_숫자아님.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/20_실패와정리.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/21_값의미.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/22_빌림과소비.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/22b_빌린동안수정.hmje",
+    "expect": "compile-error",
+    "run": false,
+    "diagnostic_contains": [
+      "빌린 값이라",
+      "변경"
+    ]
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/23_같은객체.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/24_소유하지않는.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/25_동시작업.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/26_제한시간.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/27_낱말세기.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s1",
+    "source": "sessions/s1-grammar/28_가져오기.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/01_진도.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/02_이름표.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/03_시간재기.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/04_가져오지않음.hmje",
+    "expect": "compile-error",
+    "run": false,
+    "diagnostic_contains": [
+      "반복 수식어를 찾을 수 없습니다"
+    ]
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/05_기록되는클래스.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/06_활용틀림.hmje",
+    "expect": "compile-error",
+    "run": false,
+    "diagnostic_contains": [
+      "활용이 아닙니다"
+    ]
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/07_필드수식어.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/08_소유하지않는.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/09_읽은필드만.hmje",
+    "expect": "success",
+    "run": true
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/10_UI전용.hmje",
+    "expect": "compile-error",
+    "run": false,
+    "diagnostic_contains": [
+      "UI 스레드 전용이라"
+    ]
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/설정앱",
+    "artifact": "SettingsDemo",
+    "target": "macos-app",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/두자리앱",
+    "artifact": "TwoPlaces",
+    "target": "macos-app",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s2",
+    "source": "sessions/s2-modifiers/모르는속성",
+    "artifact": "UnknownAttr",
+    "target": "macos-app",
+    "expect": "compile-error",
+    "run": false,
+    "stdout_contains": null,
+    "diagnostic_contains": [
+      "속성이 없습니다"
+    ]
+  },
+  {
+    "session": "s3",
+    "source": "sessions/s3-ui/01-목록",
+    "artifact": "메모앱",
+    "target": "macos-app",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s3",
+    "source": "sessions/s3-ui/02-편집",
+    "artifact": "메모앱",
+    "target": "macos-app",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s3",
+    "source": "sessions/s3-ui/03-완성",
+    "artifact": "메모앱",
+    "target": "macos-app",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s4",
+    "source": "sessions/s4-server",
+    "artifact": "예약서버",
+    "target": "posix-host-exe",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s4",
+    "source": "sessions/s4-server",
+    "artifact": "예약시험",
+    "target": "posix-host-exe",
+    "expect": "success",
+    "run": true,
+    "stdout_contains": "실패 0개"
+  },
+  {
+    "session": "s5",
+    "source": "sessions/s5-sem",
+    "artifact": "학습",
+    "target": "posix-host-exe",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s5",
+    "source": "sessions/s5-sem",
+    "artifact": "이어쓰기",
+    "target": "posix-host-exe",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s5",
+    "source": "sessions/s5-sem",
+    "artifact": "젬마",
+    "target": "posix-host-exe",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  },
+  {
+    "session": "s6",
+    "source": "sessions/s6-ide/exhibit",
+    "artifact": "Exhibit",
+    "target": "macos-app",
+    "expect": "success",
+    "run": false,
+    "stdout_contains": null
+  }
+]

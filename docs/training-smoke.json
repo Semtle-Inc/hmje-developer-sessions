@@ -1,0 +1,11 @@
+{
+  "verified_date": "2026-10-09",
+  "compiler_source_commit": "032483bd83c275837d0a277db125f651bf34b678",
+  "source_export_commit": "8a8cd291756a53ac9ee3faba9423ef78abf5fcb0",
+  "device": "cpu",
+  "steps": 10,
+  "training_exit": 0,
+  "last_checkpoint_present": true,
+  "continuation_exit": 0,
+  "continuation_tokens": 100
+}

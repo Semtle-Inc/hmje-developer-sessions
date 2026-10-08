@@ -1,0 +1,14 @@
+{
+  "verified_date": "2026-10-09",
+  "source": "sessions/s3-ui/02-편집",
+  "artifact": "메모앱",
+  "initial_result": "FAIL",
+  "initial_compile_exit": 1,
+  "failure_phase": "ad-hoc signing",
+  "diagnostic": "internal error in Code Signing subsystem",
+  "isolated_rebuild_exit": 0,
+  "strict_codesign_verification_exit": 0,
+  "signing_mode": "ad-hoc",
+  "cause": "undetermined",
+  "full_suite_confirmation": "docs/verification-results.json"
+}
