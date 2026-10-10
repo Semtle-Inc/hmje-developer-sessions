@@ -13,7 +13,9 @@
 | SDK | 표준 라이브러리 및 공개 플랫폼 라이브러리 10개 |
 | 검증 도구 | HMJE로 구현한 `세션검증` |
 
-최종 Beta 1 소스로 동기화한 공개 저장소를 다시 빌드하고 별도 경로에 설치하여 검증했습니다. 공개용 경로·진단 안내의 조정을 포함한 빌드이며, 서명된 배포 파일의 바이트 재현 검증은 별도의 Swift 씨앗 저장소에서 제공합니다.
+[HMJE 소스 저장소](https://github.com/Semtle-Inc/hmje)의 Beta 1 소스로 툴체인을 빌드·설치하여 예제를 검증했습니다. 이 검증은 예제의 빌드와 실행을 대상으로 합니다. 컴파일러 도구와 배포 파일의 재현 비교는 [Swift 씨앗 저장소](https://github.com/Semtle-Inc/hmje-swift-seed)에서 제공합니다.
+
+표의 소스 빌드 커밋은 검증 당시의 소스 식별값입니다. 사용한 실행 파일은 아래 보고서의 SHA-256으로 식별합니다.
 
 도구 SHA-256과 항목별 원본 결과는 [verification-results.json](verification-results.json), 라이브러리 버전은 [sdk-libraries.json](sdk-libraries.json)에 기록되어 있습니다. 이전 SDK를 사용한 결과는 [이전 실행 보고서](archive/pre-sync-verification-results.json)와 [이전 SDK 목록](archive/pre-sync-sdk-libraries.json)에 보존했습니다.
 

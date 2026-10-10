@@ -15,7 +15,7 @@
 
 ## 요구 사항
 
-- HMJE Beta 1 툴체인 및 각 예제에서 사용하는 공개 라이브러리
+- [HMJE Beta 1 툴체인](https://github.com/Semtle-Inc/hmje/releases/tag/v1.0.0-beta.1) 및 각 예제에서 사용하는 공개 라이브러리
 - PATH에 등록된 `hmjec`
 - macOS 빌드: Xcode Command Line Tools
 - iOS 빌드: Xcode 및 대상 SDK
@@ -30,7 +30,12 @@ hmjec --platform-libraries
 
 ## 빠른 시작
 
-저장소 루트에서 실행합니다.
+예제 저장소를 내려받고 저장소 루트에서 실행합니다.
+
+```sh
+git clone https://github.com/Semtle-Inc/hmje-developer-sessions.git
+cd hmje-developer-sessions
+```
 
 ### macOS · Linux
 
@@ -66,7 +71,7 @@ HMJEC=/path/to/hmjec ./tools/run.sh sessions/s1-grammar/01_안녕.hmje
 
 ## 지원 및 검증
 
-최종 HMJE Beta 1 빌드 `2026100804`의 소스로 동기화한 공개 툴체인과 최신 HmjeUI SDK를 사용하여 CLI 예제와 macOS 앱 빌드를 macOS arm64에서 검증했습니다. 소스 버전과 도구 해시는 [검증 환경](docs/verification.md#검증-환경)에 기록되어 있습니다. 앱 프로젝트는 macOS 14 이상 또는 iOS 17 이상을 대상으로 합니다. Windows·Linux 실행, iOS 기기 서명 및 UI 동작은 이번 검증 범위에 포함되지 않습니다.
+HMJE Beta 1 빌드 `2026100804`의 소스에서 빌드한 툴체인과 해당 버전의 HmjeUI SDK로 CLI 예제와 macOS 앱 빌드를 macOS arm64에서 검증했습니다. 소스 버전과 도구 해시는 [검증 환경](docs/verification.md#검증-환경)에 기록되어 있습니다. 앱 프로젝트는 macOS 14 이상 또는 iOS 17 이상을 대상으로 합니다. Windows·Linux 실행, iOS 기기 서명 및 UI 동작은 이번 검증 범위에 포함되지 않습니다.
 
 컴파일러 진단을 설명하는 오류 예제는 정상 실행 예제와 구분되어 있습니다. 검증 환경, 항목별 결과 및 오류 예제 목록은 [검증 문서](docs/verification.md)를 참조하십시오.
 
@@ -74,11 +79,7 @@ HMJEC=/path/to/hmjec ./tools/run.sh sessions/s1-grammar/01_안녕.hmje
 
 저장소에는 S1–S6 예제 소스, 학습 말뭉치, 빌드·검증 도구, 문서 및 요약 검증 보고서가 포함됩니다. 예제 소스 83개와 일괄 검증 항목 52개는 서로 다른 집계입니다. 프로젝트 하나에 여러 소스 파일이 포함될 수 있습니다.
 
-빌드 과정에서 생성되는 `.app`·실행 파일·자원 묶음·로그는 `build/`에 저장되며 Git에서 제외됩니다. 모델, 학습 체크포인트 및 실행 중 생성되는 데이터베이스도 공개 파일에 포함되지 않습니다. 배포용 소스 압축 파일은 작업 폴더 전체 대신 Git에 등록된 파일로 생성합니다.
-
-```sh
-git archive --format=zip --output=../hmje-developer-sessions.zip HEAD
-```
+빌드 과정에서 생성되는 `.app`·실행 파일·자원 묶음·로그는 `build/`에 저장되며 Git에서 제외됩니다. 모델, 학습 체크포인트 및 실행 중 생성되는 데이터베이스도 공개 파일에 포함되지 않습니다. 소스 압축 파일은 저장소의 **Code → Download ZIP**에서 내려받을 수 있습니다.
 
 ## 학습 데이터 및 모델
 
